@@ -1,35 +1,32 @@
-___Color Palets___
-Background:
+__Color Palette
 
-Warm Beige → #F5F1E6
-(Soft, natural tone for the main page background)
+Background:
+Soft Cream → #FFF8E7
+(A gentle, clean background that feels modern and welcoming)
 
 Header & Footer:
-
-Olive Green → #6B8E23
-
+Deep Teal → #2C7A7B
 White Text → #FFFFFF
-(Gives a grounded, nature-first feel while keeping text readable)
+(Professional yet friendly; ensures text is readable and links pop)
 
 Product Card Background:
-
 White → #FFFFFF
-
-Light Shadow → rgba(0, 0, 0, 0.05)
-(Keeps products clean and fresh-looking)
+Light Shadow → rgba(0, 0, 0, 0.08)
+(Keeps products crisp, fresh, and slightly elevated)
 
 Price Text:
-
-Earth Brown → #8B5E3C
-
-Charcoal Gray → #333333
-(Elegant and easy on the eyes, maintains trustworthiness)
+Rich Copper → #B65E34
+Charcoal Gray → #2E2E2E
+(Elegant contrast for text, communicates quality and trustworthiness)
 
 Amazon/Flipkart Buttons:
+Deep Teal → #2C7A7B (for Amazon button)
+Sunset Coral → #FF6F61 (for Flipkart button or “View More” CTA)
+(Bold but not overpowering; draws attention to actionable elements)
 
-Olive Green → #6B8E23 (for Amazon button)
-
-Soft Coral → #E07A5F (for Flipkart button or “View More” CTA)
+Accent / Hover Color:
+Soft Mint → #A8E6CF
+(Use for hover effects or small highlights; adds freshness and modern vibe)
 
 ___Directory Format___
 
