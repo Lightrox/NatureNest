@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Dot & Key Cica Calming Blemish Clearing Gel Face Wash",
+    "image": "images/Dot&keyFaceWash.webp",
+    "price_range": "₹200-220/100ml",
+    "amazon_link": "https://www.amazon.in/example-product-link",
+    "flipkart_link": "https://www.flipkart.com/example-product-link",
+    "category": "face"
+  },
+  {
+    "name": "Organic Aloe Vera Gel",
+    "image": "images/aloe-vera-gel.webp",
+    "price_range": "₹200–₹250",
+    "amazon_link": "https://www.amazon.in/example-product-link",
+    "flipkart_link": "https://www.flipkart.com/example-product-link",
+    "category": "body"
+  }
+]

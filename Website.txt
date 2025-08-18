@@ -1,0 +1,84 @@
+___Color Palets___
+Background:
+
+Warm Beige → #F5F1E6
+(Soft, natural tone for the main page background)
+
+Header & Footer:
+
+Olive Green → #6B8E23
+
+White Text → #FFFFFF
+(Gives a grounded, nature-first feel while keeping text readable)
+
+Product Card Background:
+
+White → #FFFFFF
+
+Light Shadow → rgba(0, 0, 0, 0.05)
+(Keeps products clean and fresh-looking)
+
+Price Text:
+
+Earth Brown → #8B5E3C
+
+Charcoal Gray → #333333
+(Elegant and easy on the eyes, maintains trustworthiness)
+
+Amazon/Flipkart Buttons:
+
+Olive Green → #6B8E23 (for Amazon button)
+
+Soft Coral → #E07A5F (for Flipkart button or “View More” CTA)
+
+___Directory Format___
+
+health-products-site/
+│
+├── index.html                # Homepage with quote + featured products
+├── face.html                 # Face category page
+├── food.html                 # Food category page
+├── body.html                 # Body category page
+├── about.html                # About Us page
+│
+├── css/
+│   └── style.css             # Main styles
+│
+├── js/
+│   └── script.js             # Main JS for rendering products
+│
+├── data/
+│   └── products.json         # All product details
+│
+├── images/
+│   ├── face-cream.webp
+│   ├── honey.webp
+│   ├── body-lotion.webp
+│   └── ...                   # All product images
+│
+└── assets/
+    ├── logo.png              # Logo or icons
+    └── favicon.ico           # Browser tab icon
+
+
+
+___Example product cart Format___[
+  {
+    "name": "Dot & Key Cica Calming Blemish Clearing Gel Face Wash",
+    "image": "images/dot-key-facewash.webp",
+    "price_range": "₹300–₹350",
+    "amazon_link": "https://www.amazon.in/example-product-link",
+    "flipkart_link": "https://www.flipkart.com/example-product-link",
+    "category": "face"
+  },
+  {
+    "name": "Organic Aloe Vera Gel",
+    "image": "images/aloe-vera-gel.webp",
+    "price_range": "₹200–₹250",
+    "amazon_link": "https://www.amazon.in/example-product-link",
+    "flipkart_link": "https://www.flipkart.com/example-product-link",
+    "category": "body"
+  }
+]
+
+
