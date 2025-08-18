@@ -1,7 +1,22 @@
 [
   {
     "name": "Facewash",
-    "image": "images/Dot&keyFaceWash.webp",
-    "amazon_link": "https://www.amazon.in/Prone-Salicylic-Sensitive-Sulphate-Control/dp/B0BCJZ289Q/ref=sr_1_5?nsdOptOutParam=true&sr=8-5",
-  }
+    "image": "images/Facewash.webp",
+    "page_link": "facewash.html"
+  },
+  {
+    "name": "Soap",
+    "image": "images/soap.webp",
+    "page_link": "soap.html"
+  },
+  {
+    "name": "Shampoo",
+    "image": "images/shampoo.webp",
+    "page_link": "shampoo.html"
+  },
+  {
+    "name": "Hair oil",
+    "image": "images/hairoil.webp",
+    "page_link": "hairoil.html"
+  } 
 ]

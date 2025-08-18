@@ -1,0 +1,137 @@
+:root{
+    --bg-color: #FAE7C9;
+    --text-color:#6F6134;
+}
+body{
+    padding:0px;
+    margin:0px;
+    background-color: var(--bg-color);    
+}
+::selection{
+    color: var(--bg-color);
+    background-color: var(--text-color);
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 2vw;
+    background-color: var(--text-color); /* only here */
+    height: 70px;
+
+}
+
+#header nav {
+    display: flex;
+    gap: 30px;
+    padding-right: 3vw;
+}
+
+#header nav a {
+    text-decoration: none;
+    color: #ffffff; /* text color only */
+    font-family: "Poppins", sans-serif;
+}
+
+#header h3 {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size:larger;
+    font-family: "Lexend", sans-serif;
+    letter-spacing: 2px;
+}
+.hero-quote {
+    /* padding: 30px; */
+    background-color: var(--bg-color); /* Adjusted beige background */
+    color: var(--text-color); /* Deep teal for text */
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.hero-quote p {
+    font-size: 7.0rem;
+    font-weight: 500;
+    margin: 0 auto;
+    font-family: "Lexend", serif;
+    text-align: center;
+}
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.category-card {
+    background-color: transparent; /* White */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:2px solid var(--text-color);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.category-card img {
+    width: 100%;
+    border-radius: 15px;
+    /* height: auto ; */
+}
+
+.category-card h3 {
+    margin: 0.5rem 0;
+    color: #2E2E2E; /* Charcoal Gray */
+    font-size: 1.8rem;
+}
+
+.category-card p {
+    color: #B65E34; /* Rich Copper for price */
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.category-btn {
+    display: inline-block;
+    background-color: var(--text-color); /* Deep Teal */
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    transition: all 0.5s ease;
+}
+.category-btn:hover{
+    background-color: #576238;
+}
+.highlight{
+    background-color: #FFD95D;
+    color:#576238;
+    border-radius: 15px;
+    padding:9px;
+}
+
+footer{
+    height:80vh;
+    background-color: #FFD95D;
+    color:#576238;
+}
+#footer{
+    font-size: 10rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+#heading{
+    margin-left: 2rem;
+    font-size: 3.5rem;
+    color: var(--text-color);
+    font-family: "Lexend", serif;
+}
