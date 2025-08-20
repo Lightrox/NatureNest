@@ -1,28 +1,28 @@
 [
   {
     "name": "Dot & Key Cica Calming Blemish Clearing Gel Face Wash",
-    "image": "images/Dot&keyFaceWash.webp",
+    "image": "images/shampoo.webp",
     "price_range": "₹210-230/100ml",
     "amazon_link": "https://www.amazon.in/Prone-Salicylic-Sensitive-Sulphate-Control/dp/B0BCJZ289Q/ref=sr_1_5?nsdOptOutParam=true&sr=8-5",
     "category": "face"
   },
   {
     "name": "Organic Aloe Vera Gel",
-    "image": "images/Dot&keyFaceWash.webp",
+    "image": "images/shampoo.webp",
     "price_range": "₹200–₹250",
     "amazon_link": "https://www.amazon.in/example-product-link",
     "category": "body"
   },
   {
     "name": "Organic Aloe Vera Gel",
-    "image": "images/Dot&keyFaceWash.webp",
+    "image": "images/soap.webp",
     "price_range": "₹200–₹250",
     "amazon_link": "https://www.amazon.in/example-product-link",
-    "category": "body"
+    "category": "face"
   },
   {
     "name": "Organic Aloe Vera Gel",
-    "image": "images/Dot&keyFaceWash.webp",
+    "image": "images/shampoo.webp",
     "price_range": "₹200–₹250",
     "amazon_link": "https://www.amazon.in/example-product-link",
     "category": "body"
