@@ -2,6 +2,9 @@
     --bg-color: #FAE7C9;
     --text-color: #6F6134;
 }
+*{
+    scroll-behavior: smooth;
+}
 
 body {
     padding: 0px;
@@ -59,15 +62,33 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-
+    position: relative;
 }
 
 .hero-quote p {
-    font-size: 7.0rem;
+    font-size: 7.6rem;
     font-weight: 500;
     margin: 0 auto;
     font-family: "Lexend", serif;
     text-align: center;
+    z-index: 7;
+}
+
+.decor1{
+    position: absolute;
+    left:20px;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    transform:rotate(30deg);
+}
+.decor2{
+    position: absolute;
+    right: 20px;
+    z-index: 1;
+    height: 130px;
+    width: 130px;
+    transform:rotate(-30deg);
 }
 
 /* ---CSS FOR CATEGORY CARD--- */
@@ -130,6 +151,7 @@ body {
     color: #576238;
     border-radius: 15px;
     padding: 9px;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
 
 footer {
@@ -195,18 +217,27 @@ footer {
     font-size: 1.3rem;
 }
 
-.product-btn {
-    display: inline-block;
-    background-color: var(--text-color);
-    /* Deep Teal */
-    color: #FFFFFF;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 0.5rem;
-    transition: all 0.5s ease;
+
+.product-card #avail #stores a svg{
+    height: 30px;
+    width: 30px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
 }
 
-.product-btn:hover {
-    background-color: #576238;
+.product-card #avail p{
+    color: var(--bg-color);
+}
+
+.product-card #avail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:   var(--text-color);
+    border-radius: 15px;
+}
+
+.product-card #avail #stores{
+    display: flex;
+    gap: 13px;
 }

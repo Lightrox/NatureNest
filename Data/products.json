@@ -1,31 +1,148 @@
 [
   {
-    "name": "Dot & Key Cica Calming Blemish Clearing Gel Face Wash",
-    "image": "images/shampoo.webp",
+    "name": "Dot & Key Cica Calming Gel Face Wash",
+    "image": "images/Facewash/Dot&key.webp",
     "price_range": "₹210-230/100ml",
     "amazon_link": "https://www.amazon.in/Prone-Salicylic-Sensitive-Sulphate-Control/dp/B0BCJZ289Q/ref=sr_1_5?nsdOptOutParam=true&sr=8-5",
-    "category": "face"
+    "category": "facewash"
   },
   {
-    "name": "Organic Aloe Vera Gel",
-    "image": "images/shampoo.webp",
-    "price_range": "₹200–₹250",
-    "amazon_link": "https://www.amazon.in/example-product-link",
-    "category": "body"
+    "name": "Mamaearth Ubtan Natural Glow Face Wash",
+    "image": "images/Facewash/ubtan.webp",
+    "price_range": "₹220-235/100ml",
+    "amazon_link": "https://amzn.in/d/8iP0mDN",
+    "category": "facewash"
   },
   {
-    "name": "Organic Aloe Vera Gel",
-    "image": "images/soap.webp",
-    "price_range": "₹200–₹250",
-    "amazon_link": "https://www.amazon.in/example-product-link",
-    "category": "face"
+    "name": "Cetaphil Paraben, Sulphate-Free Face Wash",
+    "image": "images/Facewash/cetaphile.webp",
+    "price_range": "₹390-410/125ml",
+    "amazon_link": "https://amzn.in/d/6qAaX9y",
+    "category": "facewash"
   },
   {
-    "name": "Organic Aloe Vera Gel",
-    "image": "images/shampoo.webp",
-    "price_range": "₹200–₹250",
-    "amazon_link": "https://www.amazon.in/example-product-link",
-    "category": "body"
+    "name": "Mamaearth Tea Tree Oil Control Face Wash",
+    "image": "images/Facewash/Teatree.webp",
+    "price_range": "₹220-240/100ml",
+    "amazon_link": "https://www.amazon.in/Mamaearth-Tree-Control-Face-Normal/dp/B07FPSB76P/ref=sr_1_29?nsdOptOutParam=true&sr=8-29",
+    "category": "facewash"
+  },
+  {
+    "name": "Khadi Natural SLS, Paraben Free Papaya Face Wash",
+    "image": "images/Facewash/Khadipapaya.webp",
+    "price_range": "₹180-190/100ml",
+    "amazon_link": "https://amzn.in/d/gYJsc9x",
+    "category": "facewash"
+  },
+  {
+    "name": "Nat Habit Ubtan Sulphate Free Face Wash",
+    "image": "images/Facewash/Natubtan.webp",
+    "price_range": "₹240-250/100g",
+    "amazon_link": "https://amzn.in/d/hHps9wA",
+    "category": "facewash"
+  },
+  {
+    "name": "Just Herbs Brightening Vitamin C & Amla Face Wash",
+    "image": "images/Facewash/Justherbsvitaminc.webp",
+    "price_range": "₹300-310/100ml",
+    "amazon_link": "https://amzn.in/d/g0WjYNH",
+    "category": "facewash"
+  },
+
+
+
+  {
+    "name": "Naija Organics Sandalwood & Turmeric Natural Soap",
+    "image": "images/Soap/Naijaorganics.webp",
+    "price_range": "₹235-245/100g",
+    "amazon_link": "https://amzn.in/d/4V8Gzxn",
+    "category": "soap"
+  },
+  {
+    "name": "Shesha Ayurveda Mud Soap With Nalpamaradi",
+    "image": "images/Soap/Sheshamudsoap.webp",
+    "price_range": "₹190-200/125g",
+    "amazon_link": "https://amzn.in/d/gocJhDO",
+    "category": "soap"
+  },
+  {
+    "name": "Ancient Living Organic & Natural Soaps",
+    "image": "images/Soap/Ancientliving.webp",
+    "price_range": "₹440-450/3pcs",
+    "amazon_link": "https://amzn.in/d/bk4tgTK",
+    "category": "soap"
+  },
+  {
+    "name": "Kaprica Natural Pure Cold Pressed Coconut Oil Soap",
+    "image": "images/Soap/Kaprica.webp",
+    "price_range": "₹420-430/5pcs",
+    "amazon_link": "https://amzn.in/d/0F6xIo4",
+    "category": "soap"
+  },
+  {
+    "name": "Speaking Tree Exfoliating Coffee Handmade Soap",
+    "image": "images/Soap/Speakingtree.webp",
+    "price_range": "₹190-200/100g",
+    "amazon_link": "https://amzn.in/d/cOEZRuq",
+    "category": "soap"
+  },
+  {
+    "name": "Neev Herbal Handmade Soaps Charcoal Soap",
+    "image": "images/Soap/Neev.webp",
+    "price_range": "₹120-130/100g",
+    "amazon_link": "https://amzn.in/d/11ALTVE",
+    "category": "soap"
+  },
+  {
+    "name": "Khadi Natural Coconut Milk & Honey Soap",
+    "image": "images/Soap/Khadihoney.webp",
+    "price_range": "₹200-210/3pcs",
+    "amazon_link": "https://amzn.in/d/2BBXaxz",
+    "category": "soap"
+  },
+  {
+    "name": "Rustic Art Aloe Clary Sage Natural Shampoo",
+    "image": "images/Shampoo/Rustic.jpg",
+    "price_range": "₹320-330/210g",
+    "amazon_link": "https://amzn.in/d/iTjRSzT",
+    "category": "shampoo"
+  },
+  {
+    "name": "Just Herbs Root Nourishing Amla Neem Shampoo",
+    "image": "images/Shampoo/JustHerbs.jpg",
+    "price_range": "₹240-250/200ml",
+    "amazon_link": "https://amzn.in/d/iTjRSzT",
+    "category": "shampoo"
+  },
+  {
+    "name": "The Moms Co. Natural Protein Shampoo for Strong Hair",
+    "image": "images/Shampoo/Momsandco.jpg",
+    "price_range": "₹390-400/200ml",
+    "amazon_link": "https://amzn.in/d/aysK0eg",
+    "category": "shampoo"
+  },
+  {
+    "name": "Dove Hair Therapy Breakage Repair Sulphate-Free Shampoo",
+    "image": "images/Shampoo/Dove.jpg",
+    "price_range": "₹300-350/380ml",
+    "amazon_link": "https://amzn.in/d/b7S6nV7",
+    "category": "shampoo"
+  },
+  {
+    "name": "Rahipa Red Onion Shampoo With Black Seed Oil Extract",
+    "image": "images/Shampoo/Rahipa.jpg",
+    "price_range": "₹380-400/100ml",
+    "amazon_link": "https://amzn.in/d/bEXJ8I5",
+    "category": "shampoo"
+  },
+  {
+    "name": "Mamaearth Onion Shampoo for Hair Growth ",
+    "image": "images/Shampoo/mama.jpg",
+    "price_range": "₹250-260/250ml",
+    "amazon_link": "Mamaearth Onion Shampoo for Hair Growth ",
+    "category": "shampoo"
   }
+
+
 
 ]
