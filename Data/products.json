@@ -108,17 +108,17 @@
     "category": "shampoo"
   },
   {
-    "name": "Just Herbs Root Nourishing Amla Neem Shampoo",
-    "image": "images/Shampoo/JustHerbs.jpg",
-    "price_range": "₹240-250/200ml",
-    "amazon_link": "https://amzn.in/d/iTjRSzT",
-    "category": "shampoo"
-  },
-  {
     "name": "The Moms Co. Natural Protein Shampoo for Strong Hair",
     "image": "images/Shampoo/Momsandco.jpg",
     "price_range": "₹390-400/200ml",
     "amazon_link": "https://amzn.in/d/aysK0eg",
+    "category": "shampoo"
+  },
+  {
+    "name": "Just Herbs Root Nourishing Amla Neem Shampoo",
+    "image": "images/Shampoo/JustHerbs.jpg",
+    "price_range": "₹240-250/200ml",
+    "amazon_link": "https://amzn.in/d/iTjRSzT",
     "category": "shampoo"
   },
   {
