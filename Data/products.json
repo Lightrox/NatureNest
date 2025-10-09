@@ -158,5 +158,33 @@
     "amazon_link": "https://amzn.in/d/3ghEV7T",
     "category": "shampoo",
     "description": "REDUCES HAIR FALL : Onion Oil stimulates the scalp, promoting blood circulation. Plant Keratin strengthens hair, and makes it frizz-free. • MAKES HAIR SOFT : Gentle surfactants cleanse hair & scalp without stripping. Keratin prevents damage & dryness, leaving hair soft & smooth. • STRENGTHENS HAIR : Loaded with Plant Keratin, this Shampoo gently cleanses hair & prevents damage caused due to washing. • SAFE FOR CHEMICALLY TREATED HAIR : Made from all natural ingredients, the Shampoo does not do any harm & is suitable for all hair types. It is safe for coloured or chemically treated hair. • NATURAL & TOXIN FREE : The Shampoo is completely free of Sulfates, Silicones, Parabens, Mineral Oil & Dyes. • This product is protected by Transparency, which verifies a unit’s authenticity and enables you to view rich information about the product you purchased. When you receive your product, please look for the Transparency logo and code. You can scan it to verify its authenticity with the Transparency app. To download the Transparency app, get it on the App Store or Google Play."
+  },
+  {
+    "name": "The Whole Truth Whey Protein Isolate+Concentrate",
+    "image": "images/Whey/Wholetruth.jpg",
+    "price_range": "₹2940-2950/1kg",
+    "amazon_link": "https://amzn.in/d/79FAkx1",
+    "category": "Protein"
+  },
+  {
+    "name": "TrueBasics Clean Whey Protein Powder Isolate & Concentrate",
+    "image": "images/Whey/Truebasis.jpg",
+    "price_range": "₹2990-3000/1kg",
+    "amazon_link": "https://amzn.in/d/bno4DnS",
+    "category": "Protein"
+  },
+  {
+    "name": "Wellbeing Nutrition Whey Protein Isolate & Concentrate",
+    "image": "images/Whey/Wellbeing.jpg",
+    "price_range": "₹3375-3385/1kg",
+    "amazon_link": "https://amzn.in/d/9i51iUY",
+    "category": "Protein"
+  },
+  {
+    "name": "Tata 1mg Ultra Clean Whey Protein Isolate + Concentrate",
+    "image": "images/Whey/Tata.jpg",
+    "price_range": "₹2990-3000/1kg",
+    "amazon_link": "https://amzn.in/d/3IyEQX4",
+    "category": "Protein"
   }
 ]
