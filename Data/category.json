@@ -18,5 +18,10 @@
     "name": "Hair oil",
     "image": "images/hairoil.webp",
     "page_link": "hairoil.html"
-  } 
+  },
+  {
+    "name": "Protein",
+    "image": "images/Whey/Wholetruth.jpg",
+    "page_link": "protein.html"
+  }
 ]
