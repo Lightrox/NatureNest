@@ -309,4 +309,121 @@ footer {
     display: flex;
     gap: 13px;
 }
+/* -------------------- MOBILE RESPONSIVE -------------------- */
+@media screen and (max-width: 768px) {
+    /* Reduce hero quote font size */
+    .hero-quote p {
+        font-size: 4.5rem; /* smaller but keeps same layout */
+    }
+
+    /* Reduce decor item sizes proportionally */
+    .decor-item:nth-child(1) {
+        width: 35px;
+        height: 35px;
+    }
+
+    .decor-item:nth-child(2) {
+        width: 70px;
+        height: 70px;
+    }
+
+    .decor-item:nth-child(3) {
+        width: 55px;
+        height: 55px;
+    }
+
+    .decor-item:nth-child(4) {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Category and product grid adjustments */
+    .category-grid,
+    .product-grid {
+        grid-template-columns: repeat(1, 1fr); /* single column on mobile */
+        padding: 1rem;
+    }
+
+    .category-card h3,
+    .product-card h3 {
+        font-size: 1.4rem; /* smaller headings */
+    }
+
+    .category-card p,
+    .product-card p {
+        font-size: 1.1rem; /* smaller price/text */
+    }
+
+    /* Header adjustments */
+    #header {
+        padding: 0.5px 2vw;
+        height: 60px;
+    }
+
+    #header nav {
+        gap: 15px;
+        padding-right: 1rem;
+    }
+
+    #header a h3 {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+    /* Footer adjustments */
+    #footer {
+        font-size: 5rem;
+    }
+
+    #heading {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+}
+
+/* For very small devices (like phones < 480px) */
+@media screen and (max-width: 480px) {
+    .hero-quote p {
+        font-size: 3rem;
+    }
+
+    .decor-item:nth-child(1) {
+        width: 25px;
+        height: 25px;
+    }
+
+    .decor-item:nth-child(2) {
+        width: 50px;
+        height: 50px;
+    }
+
+    .decor-item:nth-child(3) {
+        width: 40px;
+        height: 40px;
+    }
+
+    .decor-item:nth-child(4) {
+        width: 45px;
+        height: 45px;
+    }
+
+    #heading {
+        font-size: 2rem;
+    }
+
+    #footer {
+        font-size: 4rem;
+    }
+
+    .category-card h3,
+    .product-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .category-card p,
+    .product-card p {
+        font-size: 1rem;
+    }
+}
+
 
