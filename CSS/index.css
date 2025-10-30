@@ -229,13 +229,14 @@ footer {
 }
 
 #footer {
-    font-size: 10rem;
+    font-size: clamp(4rem, 15vw, 10rem);
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     height: 100%;
+    text-align: center;
 }
 
 #heading {
@@ -372,7 +373,7 @@ footer {
 
     /* Footer adjustments */
     #footer {
-        font-size: 4rem;
+        font-size: 5rem;
     }
 
     #heading {
@@ -380,6 +381,49 @@ footer {
         margin-left: 1rem;
     }
 }
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    /* Hero Quote */
+    .hero-quote p {
+        font-size: 12vh;  /* scale with viewport height */
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    /* Decor Items */
+    .decor-item:nth-child(1) { width: 5vh; height: 5vh; }
+    .decor-item:nth-child(2) { width: 7vh; height: 7vh; }
+    .decor-item:nth-child(3) { width: 6vh; height: 6vh; }
+    .decor-item:nth-child(4) { width: 6.5vh; height: 6.5vh; }
+
+    /* Category Grid & Cards */
+    .category-grid,
+    .product-grid {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem;
+    }
+
+    .category-card h3,
+    .product-card h3 { font-size: 3vh; }
+    .category-card p,
+    .product-card p { font-size: 2.5vh; }
+
+    /* Header */
+    #header { height: 8vh; padding: 0.5rem 1rem; }
+    #header a h3 { font-size: 2.5vh; letter-spacing: 0.5vh; }
+
+    /* Footer */
+    #footer {
+        font-size: 12vh;       /* scale with viewport height */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Heading */
+    #heading { font-size: 6vh; margin-left: 1rem; }
+}
+
 
 /* For very small devices (like phones < 480px) */
 @media screen and (max-width: 480px) {
@@ -412,7 +456,7 @@ footer {
     }
 
     #footer {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .category-card h3,
