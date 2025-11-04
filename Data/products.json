@@ -197,5 +197,12 @@
     "price_range": "₹2190-2200/1kg",
     "amazon_link": "https://amzn.to/47fYZg7",
     "category": "Protein"
+  },
+  {
+    "name": "Rosemary",
+    "image": "images/",
+    "price_range": "₹NIL",
+    "amazon_link": "https://amzn.in/d/3EKoNgU",
+    "category": "shampoo"
   }
 ]
