@@ -20,6 +20,11 @@
     "page_link": "hairoil.html"
   },
   {
+    "name": "Body Lotion",
+    "image": "images/bodylotion/mamaearthbabybodylotion.jpg",
+    "page_link": "babylotion.html"
+  },
+  {
     "name": "Protein",
     "image": "images/Whey/Wholetruth.jpg",
     "page_link": "protein.html"

@@ -197,5 +197,12 @@
     "price_range": "₹2190-2200/1kg",
     "amazon_link": "https://amzn.to/47fYZg7",
     "category": "Protein"
+  },
+  {
+    "name": "Mamaearth Moisturizing Daily Lotion. Infused with Cocoa Butter, Shea Butter",
+    "image": "images/bodylotion/mamaearthbabybodylotion.jpg",
+    "price_range": "₹160-170/100ml",
+    "amazon_link": "https://amzn.in/d/h1FeL9Q",
+    "category": "bodylotion"
   }
 ]
