@@ -1,32 +1,32 @@
 [
   {
     "name": "Facewash",
-    "image": "images/Facewash/Dot&key.webp",
-    "page_link": "facewash.html"
+    "image": "images/Facewash/Natubtan.webp",
+    "page_link": "html/facewash.html"
   },
   {
     "name": "Soap",
     "image": "images/Soap/Naijaorganics.webp",
-    "page_link": "soap.html"
+    "page_link": "html/soap.html"
   },
   {
     "name": "Shampoo",
     "image": "images/shampoo.webp",
-    "page_link": "shampoo.html"
+    "page_link": "html/shampoo.html"
   },
   {
     "name": "Hair oil",
     "image": "images/hairoil.webp",
-    "page_link": "hairoil.html"
+    "page_link": "html/hairoil.html"
   },
   {
     "name": "Body Lotion",
     "image": "images/bodylotion/mamaearthbabybodylotion.jpg",
-    "page_link": "bodylotion.html"
+    "page_link": "html/bodylotion.html"
   },
   {
     "name": "Protein",
     "image": "images/Whey/Wholetruth.jpg",
-    "page_link": "protein.html"
+    "page_link": "html/protein.html"
   }
 ]

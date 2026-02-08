@@ -1,40 +1,39 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // --- Load categories dynamically ---
-    fetch('Data/category.json')
-        .then(response => response.json())
-        .then(data => {
-            const categoryGrid = document.getElementById('category-grid');
-            data.forEach(category => {
-                const card = document.createElement('div');
-                card.className = 'category-card';
-                card.innerHTML = `
-                    <img src="${category.image}" alt="${category.name}">
-                    <h3>${category.name}</h3>
-                    <a href="${category.page_link}" class="category-btn">Explore products</a>
-                `;
-                categoryGrid.appendChild(card);
-            });
-        })
-        .catch(error => console.error('Error loading categories:', error));
+async function fetchCategories() {
+    try {
+        const res = await fetch("Data/category.json");
+        if (!res.ok) throw new Error("Failed to load categories");
+        return await res.json();
+    } catch (err) {
+        console.error(err);
+        return [];
+    }
+}
 
-    // --- Initialize floating decor items ---
-    const decorItems = document.querySelectorAll('.decor-item');
-    const hero = document.querySelector('.hero-quote'); // or '.hero' if your section uses that
+function renderCategories(categories, container) {
+    container.innerHTML = "";
 
-    decorItems.forEach(item => {
-        const maxLeft = hero.clientWidth - item.offsetWidth;
-        const maxTop = hero.clientHeight - item.offsetHeight;
+    if (categories.length === 0) {
+        container.innerHTML = "<p>No categories found.</p>";
+        return;
+    }
 
-        const randomLeft = Math.random() * maxLeft;
-        const randomTop = Math.random() * maxTop;
+    categories.forEach(category => {
+        const card = document.createElement("div");
+        card.className = "category-card";
 
-        item.style.left = `${randomLeft}px`;
-        item.style.top = `${randomTop}px`;
+        card.innerHTML = `
+            <img src="${category.image}" alt="${category.name}">
+            <h3>${category.name}</h3>
+            <a href="${category.page_link}" class="category-btn">Shop Now</a>
+        `;
 
-        // Slow down by doubling duration
-        const baseDuration = 18 + Math.random() * 10; // original
-        item.style.animationDuration = `${baseDuration * 2}s`; // half speed
-        item.style.animationDelay = `${Math.random() * 5}s`;
+        container.appendChild(card);
     });
+}
 
+document.addEventListener("DOMContentLoaded", async () => {
+    const grid = document.getElementById("category-grid");
+    const categories = await fetchCategories();
+    renderCategories(categories, grid);
 });
+

@@ -97,27 +97,27 @@ body {
 }
 
 /* Random positions & variety */
-.decor-item:nth-child(1) {
+.decor-item:nth-child(2) {
     width: 50px;
     height: 50px;
     animation-duration: 26s;
 }
 
-.decor-item:nth-child(2) {
+.decor-item:nth-child(3) {
     width: 100px;
     height: 100px;
     animation-duration: 20s;
     animation-delay: 2s;
 }
 
-.decor-item:nth-child(3) {
+.decor-item:nth-child(4) {
     width: 80px;
     height: 80px;
     animation-duration: 24s;
     animation-delay: 3s;
 }
 
-.decor-item:nth-child(4) {
+.decor-item:nth-child(5) {
     width: 90px;
     height: 90px;
     animation-duration: 30s;
@@ -287,18 +287,19 @@ footer {
 }
 
 
-.product-card #avail #stores a svg {
+.product-card .avail .stores a img,
+.product-card .avail .stores img {
     height: 30px;
     width: 30px;
     background-color: #FFFFFF;
     border-radius: 50%;
 }
 
-.product-card #avail p {
+.product-card .avail p {
     color: var(--bg-color);
 }
 
-.product-card #avail {
+.product-card .avail {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -306,7 +307,7 @@ footer {
     border-radius: 15px;
 }
 
-.product-card #avail #stores {
+.product-card .avail .stores {
     display: flex;
     gap: 13px;
 }
@@ -318,22 +319,22 @@ footer {
     }
 
     /* Reduce decor item sizes proportionally */
-    .decor-item:nth-child(1) {
+    .decor-item:nth-child(2) {
         width: 35px;
         height: 35px;
     }
 
-    .decor-item:nth-child(2) {
+    .decor-item:nth-child(3) {
         width: 70px;
         height: 70px;
     }
 
-    .decor-item:nth-child(3) {
+    .decor-item:nth-child(4) {
         width: 55px;
         height: 55px;
     }
 
-    .decor-item:nth-child(4) {
+    .decor-item:nth-child(5) {
         width: 60px;
         height: 60px;
     }
@@ -391,10 +392,10 @@ footer {
     }
 
     /* Decor Items */
-    .decor-item:nth-child(1) { width: 5vh; height: 5vh; }
-    .decor-item:nth-child(2) { width: 7vh; height: 7vh; }
-    .decor-item:nth-child(3) { width: 6vh; height: 6vh; }
-    .decor-item:nth-child(4) { width: 6.5vh; height: 6.5vh; }
+    .decor-item:nth-child(2) { width: 5vh; height: 5vh; }
+    .decor-item:nth-child(3) { width: 7vh; height: 7vh; }
+    .decor-item:nth-child(4) { width: 6vh; height: 6vh; }
+    .decor-item:nth-child(5) { width: 6.5vh; height: 6.5vh; }
 
     /* Category Grid & Cards */
     .category-grid,
@@ -431,22 +432,22 @@ footer {
         font-size: 3rem;
     }
 
-    .decor-item:nth-child(1) {
+    .decor-item:nth-child(2) {
         width: 25px;
         height: 25px;
     }
 
-    .decor-item:nth-child(2) {
+    .decor-item:nth-child(3) {
         width: 50px;
         height: 50px;
     }
 
-    .decor-item:nth-child(3) {
+    .decor-item:nth-child(4) {
         width: 40px;
         height: 40px;
     }
 
-    .decor-item:nth-child(4) {
+    .decor-item:nth-child(5) {
         width: 45px;
         height: 45px;
     }

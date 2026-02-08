@@ -41,7 +41,7 @@ def get_user_input():
         "category": category
     }
 
-def add_to_products_json(json_file='C:\\Users\\Harsh\\Documents\\NatureNest\\Data\\products.json'):
+def add_to_products_json(json_file='../NatureNest/Data/products.json'):
     """
     Load products.json, append new product data, and save back to the file.
     Creates the file if it doesn't exist.
@@ -82,4 +82,4 @@ def add_to_products_json(json_file='C:\\Users\\Harsh\\Documents\\NatureNest\\Dat
 
 # Run the script with the specific file path
 if __name__ == "__main__":
-    add_to_products_json(json_file='C:\\Users\\Harsh\\Documents\\NatureNest\\Data\\products.json')
+    add_to_products_json(json_file='../NatureNest/Data/products.json')

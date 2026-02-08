@@ -204,5 +204,12 @@
     "price_range": "₹160-170/100ml",
     "amazon_link": "https://amzn.in/d/h1FeL9Q",
     "category": "bodylotion"
+  },
+  {
+    "name": "Khadi Natural Soap with Essential Oils",
+    "image": "images/Soap/khadi10.jpg",
+    "price_range": "₹515-525/10pcs",
+    "amazon_link": "https://amzn.to/3O1OXIl",
+    "category": "soap"
   }
 ]
